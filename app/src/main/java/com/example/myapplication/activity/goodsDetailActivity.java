@@ -21,6 +21,8 @@ public class goodsDetailActivity extends AppCompatActivity implements View.OnCli
 
     @Override
     public void onClick(View v) {
+        Intent intent = new Intent(this, bottomNavigationActivity.class);
+        startActivity(intent);
         finish();
     }
 }
