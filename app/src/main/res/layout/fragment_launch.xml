@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/iv_launch"
+        android:scaleType="fitXY"
+        android:layout_height="match_parent"/>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="center|bottom"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            android:id="@+id/rg_indicate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_gravity="bottom|center"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="wrap_content"
+            android:padding="3dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/get_into_app_btn"
+            android:text="开始使用软件"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:visibility="invisible" />
+    </FrameLayout>
+</FrameLayout>
