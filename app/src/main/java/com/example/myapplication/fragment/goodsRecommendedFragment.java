@@ -1,5 +1,6 @@
 package com.example.myapplication.fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -14,6 +15,7 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 
 import com.example.myapplication.R;
+import com.example.myapplication.activity.goodsDetailActivity;
 import com.example.myapplication.adapter.goodsGVAdapter;
 import com.example.myapplication.bean.publishedGoods;
 import com.example.myapplication.util.ToastUtil;
@@ -71,6 +73,8 @@ public class goodsRecommendedFragment extends Fragment implements AdapterView.On
     }
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        ToastUtil.show(getContext(), goodsList.get(position).getName());
+        Intent intent = new Intent(getActivity(), goodsDetailActivity.class);
+        getActivity().startActivity(intent);
+        getActivity().finish();
     }
 }
