@@ -1,2 +1,0 @@
-# ouc_HCI_final_course_design
-中国海洋大学人机交互课程设计
