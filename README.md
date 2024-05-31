@@ -14,11 +14,12 @@
 有登录注册页面，页面的输入逻辑并没有限制，尚待处理，其余的手机号注册和微信登录等页面尚待完成，这个头像到时候搞个圆的，方的不好看（界面借鉴的QQ）
 
 
-
 ![image](https://github.com/wellorbetter/ouc_HCI_final_course_design/assets/92317982/b0f68649-382a-47c7-8924-40f0b9e70659)
 ![image](https://github.com/wellorbetter/ouc_HCI_final_course_design/assets/92317982/688012eb-ba5a-4192-ab36-b46308825b95)
 
 进去之后的主页面用VIewpager(不是2)结合Fragment实现了底部导航，主页中的首页Fragment有关注、推荐和区域三个小标题，在这个Fragment中同意嵌套了一个TabLayout结合Viewpager+Fragment，实现了下面这种效果
+
+
 ![image](https://github.com/wellorbetter/ouc_HCI_final_course_design/assets/92317982/70a846d7-927c-4e7d-a8b3-d84cf9f05401)
 ![image](https://github.com/wellorbetter/ouc_HCI_final_course_design/assets/92317982/e3e1dfe9-6f9a-461d-811b-5bb17f3e994f)
 
